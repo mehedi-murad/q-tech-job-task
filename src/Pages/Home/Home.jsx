@@ -1,5 +1,6 @@
 import Article from '../Article/Article';
 import Banner from '../Banner/Banner';
+import FreeGuide from '../FreeGuide/FreeGuide';
 import Navbar from '../Navbar/Navbar';
 import SecondBanner from '../SecondBanner/SecondBanner';
 import Testimonial from '../Testimonial/Testimonial';
@@ -12,6 +13,7 @@ const Home = () => {
             <SecondBanner></SecondBanner>
             <Testimonial></Testimonial>
             <Article></Article>
+            <FreeGuide></FreeGuide>
         </div>
     );
 };
