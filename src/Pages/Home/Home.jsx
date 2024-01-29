@@ -2,6 +2,7 @@ import Article from '../Article/Article';
 import Banner from '../Banner/Banner';
 import FreeGuide from '../FreeGuide/FreeGuide';
 import Navbar from '../Navbar/Navbar';
+import OnlineSession from '../OnlineSession/OnlineSession';
 import SecondBanner from '../SecondBanner/SecondBanner';
 import Testimonial from '../Testimonial/Testimonial';
 
@@ -14,6 +15,7 @@ const Home = () => {
             <Testimonial></Testimonial>
             <Article></Article>
             <FreeGuide></FreeGuide>
+            <OnlineSession></OnlineSession>
         </div>
     );
 };
