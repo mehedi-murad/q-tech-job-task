@@ -4,6 +4,7 @@ import FreeGuide from '../FreeGuide/FreeGuide';
 import Navbar from '../Navbar/Navbar';
 import OnlineSession from '../OnlineSession/OnlineSession';
 import SecondBanner from '../SecondBanner/SecondBanner';
+import Subscribe from '../Subscribe/Subscribe';
 import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Article></Article>
             <FreeGuide></FreeGuide>
             <OnlineSession></OnlineSession>
+            <Subscribe></Subscribe>
         </div>
     );
 };
