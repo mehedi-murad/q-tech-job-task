@@ -1,6 +1,6 @@
 # JOB TASK
 
-## Live Link : https://stirring-sunburst-270240.netlify.app/
+## Live Link : https://happy-coaching.netlify.app/
 ## Git Repo Link: https://github.com/mehedi-murad/q-tech-job-task
 
 

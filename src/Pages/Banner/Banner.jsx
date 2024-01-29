@@ -5,6 +5,7 @@ import vectorImg from "../../assets/images/vector.png";
 import frameImg from "../../assets/images/frame.png";
 
 const Banner = () => {
+  
   return (
     <div className="bg-[#FAF8F6]">
       <div className="flex flex-col md:flex-row justify-center items-center p-20">
