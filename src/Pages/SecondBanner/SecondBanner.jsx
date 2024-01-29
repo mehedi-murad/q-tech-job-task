@@ -9,7 +9,7 @@ const SecondBanner = () => {
         <div className="px-36 flex justify-evenly gap-20 mb-20">
           <div className="space-y-6">
             <img src={vectorImg} alt="" />
-            <h1 className="text-5xl font-extrabold">
+            <h1 className="text-5xl font-extrabold text-[#333461]">
               I can help you in these <br /> particular areas.
             </h1>
           </div>

@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="bg-[#FAF8F6]">
       <div className="flex justify-center items-center p-20">
-        <div className="flex-1 sspace-y-4 ml-24 relative">
+        <div className="flex-1 sspace-y-4 ml-20 relative">
           <img className="-ml-12 absolute -top-[70px]" src={vectorImg} alt="" />
           <p className="text-base text-gray-400">
             Proven strategies backed by science for success.
@@ -26,7 +26,7 @@ const Banner = () => {
             <Button content="Get your free guide now"></Button>
           </div>
         </div>
-        <div className="flex-1 relative ml-52">
+        <div className="flex-1 relative ml-28">
           <img className="-mb-32" src={bannerImg} alt="" />
           <img
             className="absolute -top-[120px] -left-[220px]"
