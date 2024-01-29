@@ -1,3 +1,4 @@
+import Article from '../Article/Article';
 import Banner from '../Banner/Banner';
 import Navbar from '../Navbar/Navbar';
 import SecondBanner from '../SecondBanner/SecondBanner';
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <SecondBanner></SecondBanner>
             <Testimonial></Testimonial>
+            <Article></Article>
         </div>
     );
 };
