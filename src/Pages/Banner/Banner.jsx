@@ -7,8 +7,8 @@ import frameImg from "../../assets/images/frame.png";
 const Banner = () => {
   return (
     <div className="bg-[#FAF8F6]">
-      <div className="flex justify-center items-center p-20">
-        <div className="flex-1 sspace-y-4 ml-20 relative">
+      <div className="flex flex-col md:flex-row justify-center items-center p-20">
+        <div className="flex-1 sspace-y-4 md:ml-20 relative mb-8">
           <img className="-ml-12 absolute -top-[70px]" src={vectorImg} alt="" />
           <p className="text-base text-gray-400">
             Proven strategies backed by science for success.
@@ -26,10 +26,10 @@ const Banner = () => {
             <Button content="Get your free guide now"></Button>
           </div>
         </div>
-        <div className="flex-1 relative ml-28">
+        <div className="flex-1 relative md:ml-28">
           <img className="-mb-32" src={bannerImg} alt="" />
           <img
-            className="absolute -top-[120px] -left-[220px]"
+            className="absolute md:-top-[120px] md:-left-[220px]"
             src={frameImg}
             alt=""
           />

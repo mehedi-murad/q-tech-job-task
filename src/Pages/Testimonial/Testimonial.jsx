@@ -4,10 +4,10 @@ import avatar3 from "../../assets/avatar/jane1.png"
 
 const Testimonial = () => {
     return (
-        <div className="bg-[#FAF8F6] py-28">
-            <div className="ml-40">
+        <div className="bg-[#FAF8F6] py-28 px-4">
+            <div className="md:ml-40">
             <h1 className='text-[#333461] text-5xl font-extrabold mb-9'>Hear out what my <br />clients say about me.</h1>
-            <div className="flex gap-9">
+            <div className="flex flex-col md:flex-row gap-9">
                 <div className="bg-white w-[400px] p-10 space-y-4">
                     <p className="w-[304px]">"I gained so much <span className="font-bold">confidence</span> in my ability to connect and deepen my relationships with people. "</p>
                     <h2 className="font-bold">Jane</h2>

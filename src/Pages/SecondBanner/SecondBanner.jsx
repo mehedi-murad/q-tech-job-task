@@ -6,7 +6,7 @@ import Frame3 from "../../assets/images/frame3.png";
 const SecondBanner = () => {
   return (
     <div className="py-40">
-        <div className="px-36 flex justify-evenly gap-20 mb-20">
+        <div className="md:px-36 px-4 flex flex-col md:flex-row justify-evenly gap-20 mb-20">
           <div className="space-y-6">
             <img src={vectorImg} alt="" />
             <h1 className="text-5xl font-extrabold text-[#333461]">
@@ -25,7 +25,7 @@ const SecondBanner = () => {
             </p>
           </div>
         </div>
-        <div className="px-36 flex justify-around items-center gap-10">
+        <div className="md:px-36 px-4 flex flex-col md:flex-row justify-around items-center gap-10">
           <div>
             <img src={Frame1} alt="" />
             <h2 className="text-2xl font-bold mt-6">1:1 Coaching</h2>

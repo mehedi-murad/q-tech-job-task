@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex-1">
           <img src={logoImg} alt="" />
         </div>
-        <div className="flex-none">
+        <div className="flex-none hidden md:block">
           <ul className="px-1 flex justify-around gap-10 mr-7">
             <li>
                 <Link to="/">
@@ -30,8 +30,9 @@ const Navbar = () => {
                 </Link>
             </li>
           </ul>
-          <p className="bg-[#20AD96] px-4 py-2 rounded-lg text-white">Get your free guide now</p>
+          
         </div>
+        <p className="bg-[#20AD96] px-4 py-2 rounded-lg text-white hidden md:block">Get your free guide now</p>
       </div>
     </div>
   );

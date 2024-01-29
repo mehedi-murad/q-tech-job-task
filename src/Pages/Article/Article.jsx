@@ -10,9 +10,9 @@ const Article = () => {
         Stay Motivated, read the <br />
         weekly blog articles.
       </h1>
-      <div className="flex justify-center gap-10">
+      <div className="flex flex-col md:flex-row justify-center gap-10 px-4">
         <div>
-          <div className="w-[356px] border border-gray-200">
+          <div className="md:w-[356px] border border-gray-200">
             <figure>
               <img src={image1} alt="Human" />
             </figure>
@@ -28,7 +28,7 @@ const Article = () => {
         </div>
 
         <div>
-          <div className="w-[356px] border border-gray-200">
+          <div className="md:w-[356px] border border-gray-200">
             <figure>
               <img src={image2} alt="Human" />
             </figure>
@@ -42,7 +42,7 @@ const Article = () => {
         </div>
 
         <div>
-          <div className="w-[356px] border border-gray-200">
+          <div className="md:w-[356px] border border-gray-200">
             <figure>
               <img src={image3} alt="Human" />
             </figure>

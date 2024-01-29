@@ -4,12 +4,12 @@ import chatImg from "../../assets/images/chat.png"
 
 const FreeGuide = () => {
   return (
-    <div className="py-36 px-40">
-      <div className="flex justify-around items-center gap-32">
+    <div className="py-36 md:px-40 px-4">
+      <div className="flex flex-col md:flex-row justify-around items-center gap-32">
         <div className="flex-1 space-y-4">
-          <h1 className="text-[#333461] font-extrabold text-5xl">
-            Don’t miss out on my <br />
-            ‘Live life at the full <br />
+          <h1 className="text-[#333461] font-extrabold text-5xl md:w-[490px]">
+            Don’t miss out on my 
+            ‘Live life at the full
             potential’ free guide
           </h1>
           <p className="text-xl md:w-[550px] text-[#4A556C]">
@@ -23,9 +23,9 @@ const FreeGuide = () => {
           <Button content="Get your free guide now"></Button>
         </div>
         <div className="flex-1 relative">
-          <img className="" src={guideImg} alt="" />
-          <div className="bg-[#20AD96] w-24 h-24 rounded-full text-white font-semibold flex justify-center items-center absolute -top-10 -right-10">
-            <h2 className="">Free Guide</h2>
+          <img src={guideImg} alt="" />
+          <div className="bg-[#20AD96] w-24 h-24 rounded-full text-white font-semibold flex justify-center items-center absolute md:-top-10 md:-right-10 -top-0 right-0">
+            <h2>Free Guide</h2>
           </div>
 
           <div className="flex justify-center gap-6 items-center glass -mt-32 p-4">

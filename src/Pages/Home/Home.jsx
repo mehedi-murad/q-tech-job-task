@@ -1,5 +1,7 @@
 import Article from '../Article/Article';
 import Banner from '../Banner/Banner';
+import BottomFooter from '../BottomFooter/BottomFooter';
+import Footer from '../Footer/Footer';
 import FreeGuide from '../FreeGuide/FreeGuide';
 import Navbar from '../Navbar/Navbar';
 import OnlineSession from '../OnlineSession/OnlineSession';
@@ -18,6 +20,8 @@ const Home = () => {
             <FreeGuide></FreeGuide>
             <OnlineSession></OnlineSession>
             <Subscribe></Subscribe>
+            <Footer></Footer>
+            <BottomFooter></BottomFooter>
         </div>
     );
 };
